@@ -1,0 +1,9 @@
+export { default as Home } from './Home';
+export { default as About } from '../components/About';
+export { default as Services } from '../components/Services';
+export { default as Works } from '../components/Works';
+export { default as Teams } from '../components/Teams';
+export { default as Testimonials } from '../components/Testimonials';
+export { default as Pricing } from '../components/Pricing';
+export { default as Blog } from '../components/Blog';
+export { default as Contact } from '../components/Contact';
