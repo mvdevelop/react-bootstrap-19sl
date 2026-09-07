@@ -5,7 +5,13 @@ import team1 from '../assets/images/team1.jpg';
 import team2 from '../assets/images/team2.jpg';
 import team3 from '../assets/images/team3.jpg';
 
-const stats = [
+interface Stat {
+  icon: JSX.Element;
+  number: string;
+  label: string;
+}
+
+const stats: Stat[] = [
   { icon: <FaGraduationCap size={48} />, number: '500+', label: 'Students Trained' },
   { icon: <FaUsers size={48} />, number: '50+', label: 'Expert Instructors' },
   { icon: <FaLaptopCode size={48} />, number: '20+', label: 'Courses Available' },

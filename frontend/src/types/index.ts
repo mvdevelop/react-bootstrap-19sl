@@ -1,3 +1,5 @@
+import type { ReactElement } from 'react';
+
 export interface HeroSlide {
   id: number;
   image: string;
@@ -7,7 +9,7 @@ export interface HeroSlide {
 }
 
 export interface Service {
-  icon: React.ReactNode;
+  icon: ReactElement;
   title: string;
   description: string;
 }
