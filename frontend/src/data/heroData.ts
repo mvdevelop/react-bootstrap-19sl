@@ -1,8 +1,9 @@
 import hero1 from '../assets/images/img-hero1.jpg';
 import hero2 from '../assets/images/img-hero2.jpg';
 import hero3 from '../assets/images/img-hero3.jpg';
+import { HeroSlide } from '../types';
 
-const heroData = [
+const heroData: HeroSlide[] = [
   {
     id: 1,
     image: hero1,
